@@ -1,0 +1,94 @@
+html,
+body {
+  background-color: rgb(41, 41, 41);
+  color: whitesmoke;
+}
+
+.navbar-brand {
+  font-weight: 500;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.about-section p {
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.nav-bg-dark {
+  background-color: rgb(29, 28, 28);
+}
+
+.background-dark {
+  background-color: rgb(41, 41, 41);
+}
+
+.navbar-nav {
+  font-size: 1.2rem;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+  background-color: whitesmoke;
+}
+.social-media{
+  border-top: 0.1px solid rgb(52, 54, 55);
+}
+
+.social-media ul li {
+  opacity: 0.8;
+}
+
+.social-media ul li:hover {
+  opacity: 1;
+}
+
+.social-media ul li a img {
+  height: 2rem;
+  width: 2rem;
+}
+.list-group-item{
+  align-items:end;
+}
+
+.dark-box-shadow {
+  box-shadow: rgb(29, 28, 28) 0.2rem 0.2rem 0.3rem 0.1rem;
+}
+
+@media (max-width: 786px) {
+  .about-section h1 {
+    font-size: 2.2rem;
+  }
+
+  .about-section p {
+    font-size: 1.1rem;
+  }
+
+  .social-media ul li a img {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  footer p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .about-section h1 {
+    font-size: 2rem;
+  }
+
+  .about-section p {
+    font-size: 1.1rem;
+  }
+
+  .social-media ul li a img {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  footer p {
+    font-size: 0.9rem;
+  }
+}
